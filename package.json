@@ -16,8 +16,10 @@
     "@mui/material": "^7.3.4",
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.3.0",
+    "axios": "^1.12.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-material-ui-carousel": "^3.4.2",
     "three": "^0.180.0"
   },
   "devDependencies": {

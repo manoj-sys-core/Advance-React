@@ -21,7 +21,7 @@ export default function Products() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const res = await fetch("https://dummyjson.com/products");
+        const res = await fetch("https://dummyjson.com/products?limit=1000");
         const data = await res.json();
         setProducts(data.products);
       } catch (err) {
